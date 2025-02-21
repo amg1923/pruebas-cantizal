@@ -1,17 +1,13 @@
-/* style.css */
+/* Estilos personalizados */
 
 body {
-  background-color: #f8f9fa;
-  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-  margin-bottom: 20px;
-}
-
-#result {
-  background: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 5px;
+.result-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-height: 150px;
 }
